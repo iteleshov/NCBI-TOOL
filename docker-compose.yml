@@ -1,0 +1,8 @@
+services:
+  ncbi-mcp-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ncbi-mcp-server
+    stdin_open: true
+    tty: true
