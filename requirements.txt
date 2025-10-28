@@ -6,3 +6,4 @@ pydantic==2.12.3
 Requests==2.32.5
 smolagents==1.22.0
 xmltodict==1.0.2
+trio
